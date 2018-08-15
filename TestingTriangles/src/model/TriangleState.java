@@ -1,6 +1,9 @@
 package model;
 
 public enum TriangleState {
-	//the different "states" a triangle can be in
+	/**
+	 * 3 states of the triangle
+	 * I could have used the case of invalid but chose to throw an exception instead
+	 */
 	EQUILATERAL, ISOCELES, SCALENE
 }
